@@ -12,6 +12,8 @@
 		80D20AA31A4E9A4000D8A3CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D20AA21A4E9A4000D8A3CC /* Images.xcassets */; };
 		80D20AA61A4E9A4000D8A3CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80D20AA41A4E9A4000D8A3CC /* Main.storyboard */; };
 		80D20AB21A4E9A4000D8A3CC /* CryptoSwiftGCDTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D20AB11A4E9A4000D8A3CC /* CryptoSwiftGCDTestTests.swift */; };
+		80D20ACB1A4E9D4D00D8A3CC /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80D20ACA1A4E9D4D00D8A3CC /* image.jpg */; };
+		80D20ACD1A4EA14100D8A3CC /* HSMImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D20ACC1A4EA14100D8A3CC /* HSMImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -21,6 +23,27 @@
 			proxyType = 1;
 			remoteGlobalIDString = 80D20A981A4E9A4000D8A3CC;
 			remoteInfo = CryptoSwiftGCDTest;
+		};
+		80D20AC41A4E9CA900D8A3CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80D20ABF1A4E9CA900D8A3CC /* CryptoSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 754BE45519693E190098E6F3;
+			remoteInfo = CryptoSwift;
+		};
+		80D20AC61A4E9CA900D8A3CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80D20ABF1A4E9CA900D8A3CC /* CryptoSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 754BE46019693E190098E6F3;
+			remoteInfo = CryptoSwiftTests;
+		};
+		80D20AC81A4E9CBE00D8A3CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80D20ABF1A4E9CA900D8A3CC /* CryptoSwift.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 754BE45419693E190098E6F3;
+			remoteInfo = CryptoSwift;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -34,6 +57,9 @@
 		80D20AAB1A4E9A4000D8A3CC /* CryptoSwiftGCDTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoSwiftGCDTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80D20AB01A4E9A4000D8A3CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80D20AB11A4E9A4000D8A3CC /* CryptoSwiftGCDTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoSwiftGCDTestTests.swift; sourceTree = "<group>"; };
+		80D20ABF1A4E9CA900D8A3CC /* CryptoSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CryptoSwift.xcodeproj; path = CryptoSwift/CryptoSwift.xcodeproj; sourceTree = "<group>"; };
+		80D20ACA1A4E9D4D00D8A3CC /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
+		80D20ACC1A4EA14100D8A3CC /* HSMImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSMImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +83,7 @@
 		80D20A901A4E9A3F00D8A3CC = {
 			isa = PBXGroup;
 			children = (
+				80D20ABF1A4E9CA900D8A3CC /* CryptoSwift.xcodeproj */,
 				80D20A9B1A4E9A4000D8A3CC /* CryptoSwiftGCDTest */,
 				80D20AAE1A4E9A4000D8A3CC /* CryptoSwiftGCDTestTests */,
 				80D20A9A1A4E9A4000D8A3CC /* Products */,
@@ -75,8 +102,10 @@
 		80D20A9B1A4E9A4000D8A3CC /* CryptoSwiftGCDTest */ = {
 			isa = PBXGroup;
 			children = (
+				80D20ACA1A4E9D4D00D8A3CC /* image.jpg */,
 				80D20A9E1A4E9A4000D8A3CC /* AppDelegate.swift */,
 				80D20AA01A4E9A4000D8A3CC /* ViewController.swift */,
+				80D20ACC1A4EA14100D8A3CC /* HSMImage.swift */,
 				80D20AA21A4E9A4000D8A3CC /* Images.xcassets */,
 				80D20AA41A4E9A4000D8A3CC /* Main.storyboard */,
 				80D20A9C1A4E9A4000D8A3CC /* Supporting Files */,
@@ -109,6 +138,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		80D20AC01A4E9CA900D8A3CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80D20AC51A4E9CA900D8A3CC /* CryptoSwift.framework */,
+				80D20AC71A4E9CA900D8A3CC /* CryptoSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -123,6 +161,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				80D20AC91A4E9CBE00D8A3CC /* PBXTargetDependency */,
 			);
 			name = CryptoSwiftGCDTest;
 			productName = CryptoSwiftGCDTest;
@@ -176,6 +215,12 @@
 			mainGroup = 80D20A901A4E9A3F00D8A3CC;
 			productRefGroup = 80D20A9A1A4E9A4000D8A3CC /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 80D20AC01A4E9CA900D8A3CC /* Products */;
+					ProjectRef = 80D20ABF1A4E9CA900D8A3CC /* CryptoSwift.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				80D20A981A4E9A4000D8A3CC /* CryptoSwiftGCDTest */,
@@ -184,6 +229,23 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		80D20AC51A4E9CA900D8A3CC /* CryptoSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CryptoSwift.framework;
+			remoteRef = 80D20AC41A4E9CA900D8A3CC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		80D20AC71A4E9CA900D8A3CC /* CryptoSwiftTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CryptoSwiftTests.xctest;
+			remoteRef = 80D20AC61A4E9CA900D8A3CC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		80D20A971A4E9A4000D8A3CC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -191,6 +253,7 @@
 			files = (
 				80D20AA31A4E9A4000D8A3CC /* Images.xcassets in Resources */,
 				80D20AA61A4E9A4000D8A3CC /* Main.storyboard in Resources */,
+				80D20ACB1A4E9D4D00D8A3CC /* image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80D20ACD1A4EA14100D8A3CC /* HSMImage.swift in Sources */,
 				80D20AA11A4E9A4000D8A3CC /* ViewController.swift in Sources */,
 				80D20A9F1A4E9A4000D8A3CC /* AppDelegate.swift in Sources */,
 			);
@@ -228,6 +292,11 @@
 			isa = PBXTargetDependency;
 			target = 80D20A981A4E9A4000D8A3CC /* CryptoSwiftGCDTest */;
 			targetProxy = 80D20AAC1A4E9A4000D8A3CC /* PBXContainerItemProxy */;
+		};
+		80D20AC91A4E9CBE00D8A3CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CryptoSwift;
+			targetProxy = 80D20AC81A4E9CBE00D8A3CC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

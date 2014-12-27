@@ -10,10 +10,15 @@ import Cocoa
 
 class ViewController: NSViewController {
 
+    @IBOutlet weak var label: NSTextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        let pathToImage = NSBundle.mainBundle().pathForResource("image", ofType: "jpg")!
+        let imageAsData = NSData(contentsOfFile: pathToImage)!
+        let crc = imageAsData.crc32()
+        
+        self.label.objectValue = crc
     }
 
     override var representedObject: AnyObject? {
