@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80D20A9F1A4E9A4000D8A3CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D20A9E1A4E9A4000D8A3CC /* AppDelegate.swift */; };
+		80D20AA11A4E9A4000D8A3CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D20AA01A4E9A4000D8A3CC /* ViewController.swift */; };
+		80D20AA31A4E9A4000D8A3CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D20AA21A4E9A4000D8A3CC /* Images.xcassets */; };
+		80D20AA61A4E9A4000D8A3CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80D20AA41A4E9A4000D8A3CC /* Main.storyboard */; };
+		80D20AB21A4E9A4000D8A3CC /* CryptoSwiftGCDTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D20AB11A4E9A4000D8A3CC /* CryptoSwiftGCDTestTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80D20AAC1A4E9A4000D8A3CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80D20A911A4E9A3F00D8A3CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80D20A981A4E9A4000D8A3CC;
+			remoteInfo = CryptoSwiftGCDTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80D20A991A4E9A4000D8A3CC /* CryptoSwiftGCDTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoSwiftGCDTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D20A9D1A4E9A4000D8A3CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80D20A9E1A4E9A4000D8A3CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80D20AA01A4E9A4000D8A3CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80D20AA21A4E9A4000D8A3CC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		80D20AA51A4E9A4000D8A3CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80D20AAB1A4E9A4000D8A3CC /* CryptoSwiftGCDTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoSwiftGCDTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D20AB01A4E9A4000D8A3CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80D20AB11A4E9A4000D8A3CC /* CryptoSwiftGCDTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoSwiftGCDTestTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80D20A961A4E9A4000D8A3CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D20AA81A4E9A4000D8A3CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80D20A901A4E9A3F00D8A3CC = {
+			isa = PBXGroup;
+			children = (
+				80D20A9B1A4E9A4000D8A3CC /* CryptoSwiftGCDTest */,
+				80D20AAE1A4E9A4000D8A3CC /* CryptoSwiftGCDTestTests */,
+				80D20A9A1A4E9A4000D8A3CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80D20A9A1A4E9A4000D8A3CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80D20A991A4E9A4000D8A3CC /* CryptoSwiftGCDTest.app */,
+				80D20AAB1A4E9A4000D8A3CC /* CryptoSwiftGCDTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80D20A9B1A4E9A4000D8A3CC /* CryptoSwiftGCDTest */ = {
+			isa = PBXGroup;
+			children = (
+				80D20A9E1A4E9A4000D8A3CC /* AppDelegate.swift */,
+				80D20AA01A4E9A4000D8A3CC /* ViewController.swift */,
+				80D20AA21A4E9A4000D8A3CC /* Images.xcassets */,
+				80D20AA41A4E9A4000D8A3CC /* Main.storyboard */,
+				80D20A9C1A4E9A4000D8A3CC /* Supporting Files */,
+			);
+			path = CryptoSwiftGCDTest;
+			sourceTree = "<group>";
+		};
+		80D20A9C1A4E9A4000D8A3CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80D20A9D1A4E9A4000D8A3CC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80D20AAE1A4E9A4000D8A3CC /* CryptoSwiftGCDTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				80D20AB11A4E9A4000D8A3CC /* CryptoSwiftGCDTestTests.swift */,
+				80D20AAF1A4E9A4000D8A3CC /* Supporting Files */,
+			);
+			path = CryptoSwiftGCDTestTests;
+			sourceTree = "<group>";
+		};
+		80D20AAF1A4E9A4000D8A3CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80D20AB01A4E9A4000D8A3CC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80D20A981A4E9A4000D8A3CC /* CryptoSwiftGCDTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80D20AB51A4E9A4000D8A3CC /* Build configuration list for PBXNativeTarget "CryptoSwiftGCDTest" */;
+			buildPhases = (
+				80D20A951A4E9A4000D8A3CC /* Sources */,
+				80D20A961A4E9A4000D8A3CC /* Frameworks */,
+				80D20A971A4E9A4000D8A3CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoSwiftGCDTest;
+			productName = CryptoSwiftGCDTest;
+			productReference = 80D20A991A4E9A4000D8A3CC /* CryptoSwiftGCDTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80D20AAA1A4E9A4000D8A3CC /* CryptoSwiftGCDTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80D20AB81A4E9A4000D8A3CC /* Build configuration list for PBXNativeTarget "CryptoSwiftGCDTestTests" */;
+			buildPhases = (
+				80D20AA71A4E9A4000D8A3CC /* Sources */,
+				80D20AA81A4E9A4000D8A3CC /* Frameworks */,
+				80D20AA91A4E9A4000D8A3CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80D20AAD1A4E9A4000D8A3CC /* PBXTargetDependency */,
+			);
+			name = CryptoSwiftGCDTestTests;
+			productName = CryptoSwiftGCDTestTests;
+			productReference = 80D20AAB1A4E9A4000D8A3CC /* CryptoSwiftGCDTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80D20A911A4E9A3F00D8A3CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Hirnschmalz;
+				TargetAttributes = {
+					80D20A981A4E9A4000D8A3CC = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					80D20AAA1A4E9A4000D8A3CC = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 80D20A981A4E9A4000D8A3CC;
+					};
+				};
+			};
+			buildConfigurationList = 80D20A941A4E9A3F00D8A3CC /* Build configuration list for PBXProject "CryptoSwiftGCDTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80D20A901A4E9A3F00D8A3CC;
+			productRefGroup = 80D20A9A1A4E9A4000D8A3CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80D20A981A4E9A4000D8A3CC /* CryptoSwiftGCDTest */,
+				80D20AAA1A4E9A4000D8A3CC /* CryptoSwiftGCDTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80D20A971A4E9A4000D8A3CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D20AA31A4E9A4000D8A3CC /* Images.xcassets in Resources */,
+				80D20AA61A4E9A4000D8A3CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D20AA91A4E9A4000D8A3CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80D20A951A4E9A4000D8A3CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D20AA11A4E9A4000D8A3CC /* ViewController.swift in Sources */,
+				80D20A9F1A4E9A4000D8A3CC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D20AA71A4E9A4000D8A3CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D20AB21A4E9A4000D8A3CC /* CryptoSwiftGCDTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80D20AAD1A4E9A4000D8A3CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80D20A981A4E9A4000D8A3CC /* CryptoSwiftGCDTest */;
+			targetProxy = 80D20AAC1A4E9A4000D8A3CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80D20AA41A4E9A4000D8A3CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80D20AA51A4E9A4000D8A3CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80D20AB31A4E9A4000D8A3CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80D20AB41A4E9A4000D8A3CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		80D20AB61A4E9A4000D8A3CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CryptoSwiftGCDTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		80D20AB71A4E9A4000D8A3CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CryptoSwiftGCDTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		80D20AB91A4E9A4000D8A3CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CryptoSwiftGCDTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoSwiftGCDTest.app/Contents/MacOS/CryptoSwiftGCDTest";
+			};
+			name = Debug;
+		};
+		80D20ABA1A4E9A4000D8A3CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CryptoSwiftGCDTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoSwiftGCDTest.app/Contents/MacOS/CryptoSwiftGCDTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80D20A941A4E9A3F00D8A3CC /* Build configuration list for PBXProject "CryptoSwiftGCDTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D20AB31A4E9A4000D8A3CC /* Debug */,
+				80D20AB41A4E9A4000D8A3CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80D20AB51A4E9A4000D8A3CC /* Build configuration list for PBXNativeTarget "CryptoSwiftGCDTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D20AB61A4E9A4000D8A3CC /* Debug */,
+				80D20AB71A4E9A4000D8A3CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		80D20AB81A4E9A4000D8A3CC /* Build configuration list for PBXNativeTarget "CryptoSwiftGCDTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D20AB91A4E9A4000D8A3CC /* Debug */,
+				80D20ABA1A4E9A4000D8A3CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80D20A911A4E9A3F00D8A3CC /* Project object */;
+}
